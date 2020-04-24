@@ -40,6 +40,8 @@ IO.inspect({:ok, 123})
 # {:ok, 123}
 # {:ok, 123}
 
+
+## kernel funcs don't need to use a module name, can get right down to it
 div(1,2)
 # 0
 
