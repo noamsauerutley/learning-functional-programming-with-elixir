@@ -7,6 +7,6 @@ defmodule TaskList do
     end
     
     def show_list do
-        FIle.read(@file_name)
+        File.read(@file_name)
     end
 end
